@@ -1,5 +1,6 @@
 ### Hi there 👋
-
+### I'm Anurag Goswami and a student of IIITDMJ, Jabalpur.
+### Currently i have immersed myself in Web Developement though i am looking forward to trying my hands on something new as well.
 <!--
 **Anurag607/Anurag607** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
