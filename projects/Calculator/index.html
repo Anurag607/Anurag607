@@ -1,0 +1,64 @@
+<!Doctype html>
+<html lang = "en-in/us">
+<head>
+    <link rel = "icon" href = "./images/calculator.svg" type = "image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="description" content="#">
+    <meta name="keywords" content="#">
+    <meta name="author" content="Deep">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <link rel = "stylesheet" href = "style.css" type = "text/css">
+    <script src = "script.js" type = "text/javascript"></script>
+    <title>Calculator</title>
+</head>
+<body>
+    <div class= "calc-body">
+        <div class= "output">
+            <article class= "screen"></article>
+        </div>
+        <div class= "unary op">
+            <span class= "unarykey">√</span>
+            <span class= "unarykey">∏</span>
+            <span class= "unarykey">∧</span>
+            <span class= "unarykey">!</span>
+            <span id="turn" data-toggle="down">^</span>
+        </div>
+        <div class= "trig op">
+            <span class= "trigokey">RAD</span>
+            <span class= "trigokey">sin</span>
+            <span class= "trigokey">cos</span>
+            <span class= "trigokey">tan</span>
+            <span class= "trigokey">INV</span>
+            <span class= "trigokey">e</span>
+            <span class= "trigokey">ln</span>
+            <span class= "trigokey">log</span>
+        </div>
+        <div class="binary b1 op">
+            <span id="clear">AC</span>
+            <span class= "binarykey" data-bracket="left">( )</span>
+            <span class= "binarykey">%</span>
+            <span class= "binarykey">/</span>
+        </div>
+        <div class="binary b2 op result">
+            <span class= "binarykey">X</span>
+            <span class= "binarykey">-</span>
+            <span class= "binarykey">+</span>
+            <span id="result">=</span>
+        </div>
+        <div class= "keypad">
+            <span class= "numkey">7</span>
+            <span class= "numkey">8</span>
+            <span class= "numkey">9</span>
+            <span class= "numkey">4</span>
+            <span class= "numkey">5</span>
+            <span class= "numkey">6</span>
+            <span class= "numkey">1</span>
+            <span class= "numkey">2</span>
+            <span class= "numkey">3</span>
+            <span class= "numkey">0</span>
+            <span class= "numkey">.</span>
+            <span id="del">del</span>
+        </div>
+    </div>
+</body>
+</html>
