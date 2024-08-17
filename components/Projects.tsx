@@ -36,6 +36,7 @@ export default function Projects({ projects }: Props) {
                 {`Project ${i + 1}: `}
                 <a
                   target="_blank"
+                  rel={"noreferrer"}
                   href={project?.linkToBuild}
                   className="underline decoration-darkGreen/50 cursor-pointer"
                 >
