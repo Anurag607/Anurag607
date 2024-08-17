@@ -1,4 +1,4 @@
-import profilePic from "../public/Profile.jpeg";
+import profilePic from "../public/profile.jpeg";
 import { PageInfo } from "../typings";
 
 export const fetchPageInfo = async () => {
