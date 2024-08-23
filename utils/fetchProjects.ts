@@ -4,6 +4,8 @@ import poketcgImage from "../public/projects/poketcg.png";
 import notewaveImage from "../public/projects/notewave.png";
 import xlineImage from "../public/projects/xline.jpg";
 import zevonImage from "../public/projects/zevon.png";
+import zenifyImage from "../public/projects/zenify.png";
+import curelinkImage from "../public/projects/curelink.png";
 
 import nextImage from "../public/technologies/next.png";
 import typescriptImage from "../public/technologies/typescript.png";
@@ -17,6 +19,9 @@ import cssImage from "../public/technologies/css.png";
 import tailwindImage from "../public/technologies/tailwind.png";
 import supabaseImage from "../public/technologies/supabase.webp";
 import stripeImage from "../public/technologies/stripe.svg";
+import flutterImage from "../public/technologies/flutter.png";
+import dartImage from "../public/technologies/dart.png";
+import hiveImage from "../public/technologies/hive.jpeg";
 
 import { Project } from "../typings";
 
@@ -307,6 +312,76 @@ export const fetchProjects = async (): Promise<Project[]> => {
           image: postmanImage.src,
           progress: 90,
           title: "Postman",
+        },
+      ],
+    },
+    {
+      _type: "project",
+      title: "Zenify",
+      linkToBuild:
+        "https://drive.google.com/file/d/1OB-tDe59itmKJ2FveWTJkhRSxBGnQif3/view?usp=sharing",
+      image: zenifyImage.src,
+      summary:
+        "An andoid Personal Utility App featuring an in built calender and time picker to schedule your tasks as well as an in build music player.",
+      technologies: [
+        {
+          _type: "technology",
+          image: dartImage.src,
+          progress: 60,
+          title: "Dart",
+        },
+        {
+          _type: "technology",
+          image: flutterImage.src,
+          progress: 60,
+          title: "Flutter",
+        },
+        {
+          _type: "technology",
+          image: hiveImage.src,
+          progress: 60,
+          title: "Hive",
+        },
+        {
+          _type: "technology",
+          image: firebaseImage.src,
+          progress: 80,
+          title: "Firebase",
+        },
+      ],
+    },
+    {
+      _type: "project",
+      title: "Curelink",
+      linkToBuild:
+        "https://drive.google.com/file/d/1TBteKJ7Tw0MUlna2_Sg_9NziK7cb7yWb/view?usp=sharing",
+      image: curelinkImage.src,
+      summary:
+        "An android Health Care App featuring an appointment section to book/contact doctors as well as an online pharmacy section. It has an inbuilt chat application for contacting the doctors.",
+      technologies: [
+        {
+          _type: "technology",
+          image: dartImage.src,
+          progress: 60,
+          title: "Dart",
+        },
+        {
+          _type: "technology",
+          image: flutterImage.src,
+          progress: 60,
+          title: "Flutter",
+        },
+        {
+          _type: "technology",
+          image: hiveImage.src,
+          progress: 60,
+          title: "Hive",
+        },
+        {
+          _type: "technology",
+          image: firebaseImage.src,
+          progress: 80,
+          title: "Firebase",
         },
       ],
     },
